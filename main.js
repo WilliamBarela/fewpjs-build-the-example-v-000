@@ -11,7 +11,9 @@ let likeGlyphs = document.querySelectorAll('.like-glyph');
 
 function like(likeGlyph){
   likeGlyph.addEventListener('click', function(){
-    this.
+    mimicServerCall()
+    .then()
+    .catch()
   });
 }
 
