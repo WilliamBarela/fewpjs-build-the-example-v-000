@@ -4,6 +4,10 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+// make modal hidden by default
+document.querySelector('#modal').classList.add('hidden');
+
+let likeGlyphs = 
 
 
 
