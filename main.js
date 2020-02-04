@@ -13,7 +13,7 @@ function like(likeGlyph){
   likeGlyph.addEventListener('click', function(){
     mimicServerCall()
     .then()
-    .catch()
+    .catch(e)
   });
 }
 
