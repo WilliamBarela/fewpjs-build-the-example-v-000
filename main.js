@@ -16,6 +16,7 @@ function like(likeGlyph){
     .then()
     .catch(e => {
       modal.classList.remove("hidden");
+      modal.innerText = e;
       
     })
   });
