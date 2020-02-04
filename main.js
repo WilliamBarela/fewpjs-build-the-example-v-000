@@ -22,6 +22,11 @@ function like(likeGlyph){
   });
 }
 
+for(const likeGlyph of likeGlyphs){
+  like(likeGlyph);
+}
+
+
 
 
 //------------------------------------------------------------------------------
