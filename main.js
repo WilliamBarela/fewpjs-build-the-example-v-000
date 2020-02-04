@@ -18,7 +18,7 @@ function like(likeGlyph){
       modal.classList.remove("hidden");
       modal.innerText = e;
     })
-    .then(() => likeGlyph.innerHtml = FULL_HEART);
+    .then(() => likeGlyph.innerText = FULL_HEART);
   });
 }
 
